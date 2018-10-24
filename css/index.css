@@ -70,6 +70,7 @@ html{
     padding-top: 0.15rem;
     width: 7rem;
     height: 1.8rem;
+    padding-left: 0.25rem;
 }
 
 .category{
@@ -103,7 +104,7 @@ html{
     font-size: 0.22rem;
 }
 
-.news-title{
+.news-title img{
     width: 1.48rem;
     height: 0.27rem;
     margin-left: 0.3rem;
@@ -139,4 +140,146 @@ html{
 .news-more{
     border-left: 0.02rem solid #dfdfdf;
     padding-left: 0.1rem;
+}
+
+/* 福利 */
+
+.welfare{
+    width: 100%;
+    height: 2.4rem;
+    overflow: hidden;
+}
+
+.welfare-lucky{
+    width: 3.6rem;
+    padding: 0.08rem;
+    float: left;
+}
+
+.welfare-img{
+    padding: 0.08rem;
+    float: left;
+    border-left: 0.02rem solid #eee;
+}
+
+.welfare img{
+    width: 1.68rem;
+    height: 2.24rem;
+    border-radius: 0.16rem;
+}
+
+.welfare-lucky img{
+    width: 3.6rem;
+}
+
+/* 秒杀 */
+.rob-topic{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height: 0.54rem;
+    margin-top: 0.16rem;
+}
+
+.rob-title{
+    font-size: 0.32rem;
+    height: 0.42rem;
+    line-height: 0.42rem;
+    color: #f02b2b;
+    margin-left: 0.06rem;
+}
+
+.rob-session{
+    font-size: 0.24rem;
+    height: 0.34rem;
+    line-height: 0.34rem;
+    margin-left: 0.08rem;
+}
+
+.rob-time{
+    display: flex;
+    height: 0.34rem;
+    font-size: 0.2rem;
+    color: #232326;
+    margin-left: 0.18rem;
+    text-align: center;
+}
+
+.rob-time-item{
+    border: 0.01rem solid #dfdfdf;
+    width: 0.24rem;
+    height: 0.32rem;
+    line-height: 0.32rem;
+    padding: 0 0.06rem;
+}
+
+.rob-time-symbol{
+    width: 0.1rem;
+    height: 0.34rem;
+}
+
+.rob-products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.rob-product{
+    width: 1.4rem;
+    height: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0.2rem;
+}
+
+.rob-product img{
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.price{
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: #f23030;
+}
+
+.origin-price{
+    font-size: 0.2rem;
+    color: #6e6e6e;
+}
+
+/* 拼团 */
+.together{
+    margin-bottom: 0.18rem;
+}
+
+.together,
+.together img{
+    width: 100%;
+    height: 2.3rem;
+}
+
+/* 商品模块 */
+.products-box{
+    width: 100%;
+    height: 200px;
+}
+
+.products-title,
+.products-title img{
+    width: 100%;
+    height: 0.7rem;
+    font-size: 0;
+}
+
+.products{
+
+}
+
+/* 更多推荐 */
+.products-more{
+
 }
