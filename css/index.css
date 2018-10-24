@@ -244,11 +244,13 @@ html{
     font-size: 0.26rem;
     font-weight: bold;
     color: #f23030;
+    margin-top: 0.2rem;
 }
 
 .origin-price{
     font-size: 0.2rem;
     color: #6e6e6e;
+    text-decoration: line-through;
 }
 
 /* 拼团 */
@@ -290,7 +292,10 @@ html{
     height: 2.4rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+}
+
+.product-item h4{
+    margin-top: 0.2rem;
 }
 
 .product-item img{
@@ -351,10 +356,17 @@ html{
     padding-left: 0.22rem;
 }
 
+.yard-product-little h4,
+.yard-product-little h6,
+.shopping-product-little h4,
+.shopping-product-little h6{
+    width: 1.46rem;
+}
+
 /* 更多推荐 */
 .more-products{
+    background: #f0f2f5;
     width: 100%;
-    height: 1000px;
 }
 
 .more-list{
@@ -365,8 +377,101 @@ html{
 }
 
 .more-product{
+    background-color: #fff;
     margin-bottom: 0.08rem;
     width: 3.71rem;
     height: 5.54rem;
-    background: red;
+}
+
+.more-product-box{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.26rem;
+}
+
+.more-product-img{
+    width: 3.71rem;
+    height: 3.71rem;
+}
+
+.product-title{
+    padding: 0.09rem;
+    font-size: 0.26rem;
+    line-height: 0.32rem;
+    font-weight: normal;
+    color: #232326;
+}
+
+.product-bottom{
+    padding: 0 0.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-price{
+    font-size: 0.18rem;
+    color: #f23030;
+}
+
+.product-price strong{
+    font-size: 0.26rem;
+}
+
+.similar-btn{
+    font-size: 0.24rem;
+    line-height: 0.48rem;
+    padding: 0 0.12rem;
+    border: 1px solid #bfbfbf;
+    color: #696969;
+    border-radius: 0.02rem;
+}
+
+.hot-tags{
+    border: 0.02rem solid #e4393c;
+    color: #e4393c;
+    padding: 0 0.06rem;
+}
+
+.more-topic{
+    width: 100%;
+    height: 1rem;
+    text-align: center;
+    position: relative;
+    font-size: 0;
+}
+
+.more-topic:after{
+    content: '';
+    display: block;
+    width: 7.3rem;
+    height: 0.02rem;
+    margin: 0 auto;
+    background-color: #dddedf;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.1rem;
+}
+
+.more-title{
+    margin: 0;
+    height: 1rem;
+    color: #848689;
+    font-size: 0.28rem;
+    line-height: 1rem;
+    display: inline;
+    padding: 0 0.2rem;
+    background: #f0f2f5;
+    position: relative;
+    z-index: 10;
+}
+
+.more-title img{
+    padding-right: 0.2rem;
+}
+
+.more-icon{
+    width: 0.26rem;
+    height: 0.26rem;
 }
