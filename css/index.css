@@ -265,7 +265,7 @@ html{
 /* 商品模块 */
 .products-box{
     width: 100%;
-    height: 200px;
+    margin-bottom: 0.1rem;
 }
 
 .products-title,
@@ -275,11 +275,98 @@ html{
     font-size: 0;
 }
 
+/* 商品 */
 .products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: -0.02rem;
+    margin-left: -0.02rem;
+}
 
+.product-item{
+    border-top: 0.02rem solid #f5f5f5;
+    border-left: 0.02rem solid #f5f5f5;
+    height: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.product-item img{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.products-imgs{
+    align-self: center;
+}
+
+.products-imgs img{
+    padding: 0 0.04rem;
+}
+
+.yard-product-middle,
+.shopping-product-middle{
+    width: 3.74rem;
+}
+
+.yard-product-little,
+.shopping-product-little{
+    width: 1.86rem;
+}
+
+.yard-product-middle,
+.yard-product-little{
+    align-items: center;
+}
+
+.yard-product-middle h4,
+.yard-product-little h4{
+    font-weight: normal;
+    font-size: 0.3rem;
+    color: #000;
+}
+
+.yard-product-middle h6,
+.yard-product-little h6{
+    font-weight: normal;
+    font-size: 0.24rem;
+    color: #648eff;
+}
+
+.shopping-product-middle h4,
+.shopping-product-little h4{
+    font-weight: normal;
+    font-size: 0.3rem;
+    color: #fe2c3d;
+    padding-left: 0.22rem;
+}
+
+.shopping-product-middle h6,
+.shopping-product-little h6{
+    font-weight: normal;
+    font-size: 0.24rem;
+    color: #000;
+    padding-left: 0.22rem;
 }
 
 /* 更多推荐 */
-.products-more{
+.more-products{
+    width: 100%;
+    height: 1000px;
+}
 
+.more-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.more-product{
+    margin-bottom: 0.08rem;
+    width: 3.71rem;
+    height: 5.54rem;
+    background: red;
 }
