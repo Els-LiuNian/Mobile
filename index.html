@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=none">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/index.css">
     <title>京东首页</title>
@@ -14,7 +14,9 @@
         <div class="banner">
             <img src="./images/img1.jpg" alt="轮播图">
         </div>
-        <div class="activity"></div>
+        <div class="activity">
+            <img src="./images/icon1.png" alt="活动图片">
+        </div>
         <ul class="category">
             <li class="category-item"><a href="#">
                     <img src="./images/icon2.png" alt="京东超市">
@@ -61,11 +63,17 @@
             <a href="#" class="news-title">
                 <img src="./images/icon3.png" alt="京东快报">
             </a>
-            <div class="scroll-news">
-                <strong>热门</strong>
-                <p>iphone7和iphone8都下调国货价</p>
-            </div>
-            <a href="#">更多</a>
+            <ul class="scroll-news">
+                <li class="scroll-news-item"><a href="#">
+                    <strong>热门</strong>
+                    <p>iphone7和iphone8都下调国货价...</p>
+                </a></li>
+                <li class="scroll-news-item"><a href="#">
+                    <strong>HOT</strong>
+                    <p>iphone7和iphone8都下调国货价...</p>
+                </a></li>
+            </ul>
+            <a href="#" class="news-more">更多</a>
         </div>
     </div>
 </body>
